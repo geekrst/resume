@@ -1,0 +1,93 @@
+.header #desc{
+    width: 75%;
+    display: inline-block;
+    /* background-color:#31d ; */
+    color: white;
+}
+.header #desc h1{
+    margin: 0;
+}
+
+.header #desc h3{
+    color: rgb(29, 176, 48);
+    margin: 0;
+}
+
+.header{
+    margin: 0 5%;
+    padding: 2% 2%;
+    background-color: rgb(20, 61, 70) ;
+}
+
+/* .header #dp{
+    width: 24%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px solid rgb(20, 100, 70);
+    border-radius: 4px;
+} */
+
+.header img{
+    width: 24%;
+    display:inline-block;
+    height: 142px;
+    box-sizing: border-box;
+    object-fit:contain;
+    border: 3px solid rgb(20, 100, 70);
+    border-radius: 4px;
+    
+}
+
+.details{
+    background-color: rgb(5, 45, 54);
+    margin:0 5%;
+    padding: 10px 0;
+}
+
+.details li{
+    color: white;
+    display: inline-block;
+    width: 49%;
+}
+
+.details li a{
+    color: white;
+    text-decoration: none;
+}
+
+.details li a:hover{
+    color: rgb(15, 106, 224);
+    text-decoration: underline;
+}
+
+.details ul{
+    margin: 0;
+}
+
+.left{
+    /* border: 2px solid orange; */
+    width: 40.5%;
+    display: inline-block;
+    margin-left: 5%;
+    padding: 2% 2%;
+    object-fit:contain;
+    background-color: whitesmoke;
+}
+
+.right{
+    /* border: 2px solid purple; */
+    width: 40.5%;
+    display: inline-block;
+    margin-right: 5%;
+    padding: 2% 2%;
+    object-fit:contain;
+    background-color: whitesmoke;
+
+}
+
+.declaration{
+    /* border: 2px solid red; */
+    margin: 0 5%;
+    padding: 0 2%;
+
+}
