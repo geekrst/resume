@@ -91,3 +91,40 @@
     padding: 0 2%;
 
 }
+/* Skill -- start */
+.skill li{
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 0 8px;
+    border: 1px solid rgb(4, 90, 13);
+    border-radius: 10%;
+}
+
+/* Skill --- end */
+
+
+/* Left --- start */
+.left  .year{
+    display: inline-block;
+    margin-top: 0;
+    color: rgb(4, 90, 13);
+}
+
+
+.left  .yearplace{
+    display: inline-block;
+    margin-left: 145px;
+    margin-top: 0;
+    color: rgb(4, 90, 13);
+    
+}
+
+.left h5{
+    margin: 0;
+}
+
+.left .goal{
+    margin: 0;
+}
+
+/* left ---- end  */
