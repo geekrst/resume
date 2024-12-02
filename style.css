@@ -1,22 +1,35 @@
-.header #desc{
-    width: 75%;
-    display: inline-block;
-    /* background-color:#31d ; */
-    color: white;
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+.header #desc {
+  width: 75%;
+  display: inline-block;
+  /* background-color: #31d; */
+  color: white;
 }
-.header #desc h1{
-    margin: 0;
+.header #desc h1 {
+  margin: 0;
 }
 
-.header #desc h3{
-    color: rgb(29, 176, 48);
-    margin: 0;
+.mainHead {
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
 }
 
-.header{
-    margin: 0 5%;
-    padding: 2% 2%;
-    background-color: rgb(20, 61, 70) ;
+.header #desc h3 {
+  color: rgb(29, 176, 48);
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  padding: 2% 2%;
+  background-color: rgb(20, 61, 70);
+  border-radius: 20px 20px 0 0;
 }
 
 /* .header #dp{
@@ -27,105 +40,136 @@
     border-radius: 4px;
 } */
 
-.header img{
-    width: 24%;
-    display:inline-block;
-    height: 142px;
-    box-sizing: border-box;
-    object-fit:contain;
-    /* border: 3px solid rgb(20, 100, 70);
+.header img {
+  width: 24%;
+  display: inline-block;
+  height: 142px;
+  box-sizing: border-box;
+  object-fit: contain;
+  /* border: 3px solid rgb(20, 100, 70);
     border-radius: 4px; */
-    
 }
 
-.details{
-    background-color: rgb(5, 45, 54);
-    margin:0 5%;
-    padding: 10px 0;
+.details {
+  background-color: rgb(5, 45, 54);
+  margin: 0;
+  padding: 10px 0;
+  /* border-bottom: 2px solid red; */
+  border-radius: 0 0 20px 20px;
 }
 
-.details li{
-    color: white;
-    display: inline-block;
-    width: 49%;
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-content: center; */
 }
 
-.details li a{
-    color: white;
-    text-decoration: none;
+.details li {
+  color: white;
+  display: inline-block;
+  width: 49%;
 }
 
-.details li a:hover{
-    color: rgb(15, 106, 224);
-    text-decoration: underline;
+.ai {
+  font-weight: 400;
+}
+.details li a {
+  color: white;
+  text-decoration: none;
 }
 
-.details ul{
-    margin: 0;
+.details li a:hover {
+  color: rgb(15, 106, 224);
+  text-decoration: underline;
 }
 
-.left{
-    /* border: 2px solid orange; */
-    width: 40.5%;
-    display: inline-block;
-    margin-left: 5%;
-    padding: 2% 2%;
-    object-fit:contain;
-    background-color: whitesmoke;
+.details ul {
+  margin: 0;
 }
 
-.right{
-    /* border: 2px solid purple; */
-    width: 40.5%;
-    display: inline-block;
-    margin-right: 5%;
-    padding: 2% 2%;
-    object-fit:contain;
-    background-color: whitesmoke;
-
+.left {
+  /* border: 2px solid orange; */
+  width: 40.125%;
+  display: inline-block;
+  margin-left: 5%;
+  padding: 2% 2%;
+  object-fit: contain;
+  background-color: whitesmoke;
+  border-radius: 20px;
 }
 
-.declaration{
-    /* border: 2px solid red; */
-    margin: 0 5%;
-    padding: 0 2%;
-    background-color: bisque;
+.right {
+  /* border: 2px solid purple; */
+  width: 40.125%;
+  display: inline-block;
+  margin-right: 5%;
+  padding: 2% 2%;
+  object-fit: contain;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+}
 
+.declaration {
+  /* border: 2px solid red; */
+  margin: 0 5%;
+  padding: 0 2%;
+  background-color: #e9e9e9;
+  border-radius: 20px;
+  /* color: white; */
 }
 /* Skill -- start */
-.skill li{
-    display: inline-block;
-    margin: 0 10px 10px 0;
-    padding: 0 8px;
-    border: 1px solid rgb(4, 90, 13);
-    border-radius: 10%;
+.skill li {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 0 8px;
+  border: 1px solid rgb(4, 90, 13);
+  border-radius: 10%;
 }
 
 /* Skill --- end */
 
-
 /* Left --- start */
-.left  .year{
-    display: inline-block;
-    margin-top: 0;
-    color: rgb(4, 90, 13);
+.left .year {
+  display: inline-block;
+  margin-top: 0;
+  color: rgb(4, 90, 13);
 }
 
-
-.left  .yearplace{
-    display: inline-block;
-    margin-left: 145px;
-    margin-top: 0;
-    color: rgb(4, 90, 13);
-    
+.edHeading {
+  margin-bottom: 0;
+}
+.left .yearplace {
+  display: inline-block;
+  /* margin-left: 145px; */
+  margin-top: 0;
+  color: rgb(4, 90, 13);
 }
 
-.left h5{
-    margin: 0;
+.timePlace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left h5 {
+  margin: 0;
 }
 
-.left .goal{
-    margin: 0;
+.left .goal {
+  margin: 0;
 }
 
 /* left ---- end  */
+
+#declarationName {
+  margin-top: 0;
+}
+
+.mainContainer {
+  width: 75%;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 0;
+}
