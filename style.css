@@ -136,7 +136,7 @@ ul {
 /* Left --- start */
 .left .year {
   display: inline-block;
-  margin-top: 0;
+  margin: 10px 0px;
   color: rgb(4, 90, 13);
 }
 
@@ -147,7 +147,7 @@ ul {
 .left .yearplace {
   display: inline-block;
   /* margin-left: 145px; */
-  margin-top: 0;
+  margin: 10px 0px;
   color: rgb(4, 90, 13);
 }
 
@@ -155,6 +155,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 0px;
 }
 .left h5 {
   margin: 0;
