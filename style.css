@@ -44,15 +44,12 @@
 
 body {
   font-family: var(--font-body);
-  background-color: var(--bg-body);
+  background-color: var(--bg-card);
   color: var(--text-main);
   line-height: 1.45;
-  /* Tighter line height */
   -webkit-font-smoothing: antialiased;
-  padding: 1rem 0.5rem;
-  /* Reduced padding */
+  padding: 0;
   font-size: 0.9rem;
-  /* Smaller base font */
 }
 
 /* ATS Copy - Hidden */
@@ -63,11 +60,13 @@ body {
 /* Main Container */
 .mainContainer,
 .resume {
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   background: var(--bg-card);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-lg);
+  border-radius: 0;
+  box-shadow: none;
+  width: 100%;
+
   overflow: hidden;
 }
 
