@@ -279,11 +279,14 @@ header.top {
 }
 
 /* Projects Section */
+
 .projects h4 {
-  font-size: 1rem;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
   color: var(--primary-color);
-  font-weight: 600;
-  margin-bottom: 0.1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.2;
   margin-top: 1rem;
 }
 
@@ -291,10 +294,16 @@ header.top {
   margin-top: 0;
 }
 
-.projects p {
-  margin-bottom: 0.25rem;
-  line-height: 1.4;
+
+.projects ul {
+  color: var(--secondary-color);
   font-size: 0.9rem;
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.projects li {
+  margin-bottom: 0.25rem;
 }
 
 /* Footer */
